@@ -1,4 +1,2 @@
-FROM openjdk
-COPY target/*.jar /
+FROM nginx
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/my-app:latest"]
