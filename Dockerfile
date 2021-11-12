@@ -1,4 +1,4 @@
 FROM openjdk
 COPY target/*.jar /
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/my-app"]
+ENTRYPOINT ["java","-jar","/my-app:latest"]
